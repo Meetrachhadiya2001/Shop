@@ -1,0 +1,13 @@
+.header {
+  @apply h-24 w-full;
+
+  .header-items {
+    @apply w-11/12 m-auto h-full flex items-center justify-between;
+  }
+  .brand-name {
+    @apply font-bold text-4xl;
+  }
+  .logo-text {
+    @apply flex items-center gap-2 cursor-pointer;
+  }
+}

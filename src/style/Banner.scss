@@ -1,0 +1,8 @@
+.banner-bg {
+  background: url("../assets/banner.png");
+  @apply bg-no-repeat bg-cover w-full h-80 flex items-center justify-center;
+}
+
+.filters {
+  @apply h-24 bg-[#F9F1E7];
+}

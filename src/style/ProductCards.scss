@@ -1,0 +1,19 @@
+.card-hover {
+  @apply h-full w-full hover:flex hover:opacity-100 rounded cursor-pointer opacity-0 flex-col gap-6 items-center justify-center absolute inset-0 bg-black/[.7];
+
+  .add-to-cart-btn {
+    @apply px-10 py-2 text-lg bg-white hover:bg-[#B88E2F] text-[#B88E2F] hover:text-white rounded-md cursor-pointer;
+  }
+}
+
+.discount-tag {
+  @apply h-12 w-12 bg-rose-400 rounded-full flex items-center justify-center text-white font-semibold absolute right-4 top-4;
+}
+
+.new-tag {
+  @apply h-12 w-12 bg-[#2EC1AC] rounded-full flex items-center justify-center text-white font-semibold absolute right-4 top-4;
+}
+
+.pagination-btn {
+  @apply px-5 py-3 text-lg bg-[#F9F1E7] hover:bg-yellow-600 hover:text-white rounded-md cursor-pointer;
+}
