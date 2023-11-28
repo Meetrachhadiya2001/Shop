@@ -20,7 +20,7 @@ export const ProductCardList = () => {
               className="relative h-[446px] w-[285px] bg-[#F4F5F7] cursor-pointer group overflow-hidden shadow-md"
               initial={{ opacity: 0, y: 30 }}
               transition={{ duration: 0.8 }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               whileInView={{ opacity: 1, y: 0 }}
             >
               {hasDiscount && (

@@ -12,14 +12,14 @@ export const Banner = () => {
         className="banner-bg"
         initial={{ opacity: 0, y: 5 }}
         transition={{ duration: 0.5 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
         whileInView={{ opacity: 1, y: 0 }}
       >
-        <div className="flex flex-col items-center justify-center gap-3 cursor-pointer">
+        <div className="flex flex-col items-center justify-center gap-3 ">
           <h4 className="font-semibold text-5xl">Shop</h4>
           <div className="flex items-center justify-center text-lg ">
             <p className="font-semibold">Home</p>
-            <BiChevronRight className="text-3xl " />
+            <BiChevronRight className="text-3xl" />
             <p>Shop</p>
           </div>
         </div>

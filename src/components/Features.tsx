@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { featureList } from "../utils/constant";
+import "../style/Features.scss";
 
 export const Features = () => {
   return (
@@ -16,7 +17,7 @@ export const Features = () => {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <Icon className="text-5xl" />
-              <div className="flex flex-col items-start justify-center lg:text-xl">
+              <div className="flex flex-col items-start justify-center lg:text-xl ">
                 <div className="font-semibold lg:font-bold">{name}</div>
                 <div className="text-[#898989] font-medium">{description}</div>
               </div>
