@@ -27,8 +27,8 @@ export const Banner = () => {
 
       <div className="w-full p-6 bg-red-50">
         <div className="w-11/12 m-auto grid grid-cols-1 lg:grid-cols-2 gap-y-4">
-          <div className="flex items-center justify-center flex-wrap gap-2">
-            <div className="flex items-center justify-center gap-2 text-2xl font-semibold mr-6">
+          <div className="flex items-center justify-center flex-wrap gap-1 lg:gap-2">
+            <div className="flex items-center justify-center gap-2 lg:text-2xl text-xl font-semibold mr-6">
               <VscSettings className="rotate-90" />
               <div>Filter</div>
             </div>
@@ -39,8 +39,8 @@ export const Banner = () => {
               Showing 1-16 of 32 results
             </div>
           </div>
-          <div className="flex items-center justify-center flex-wrap gap-6">
-            <div className="flex items-center justify-center gap-2 text-xl">
+          <div className="flex items-center justify-center flex-wrap gap-4 lg:gap-6">
+            <div className="flex items-center justify-center gap-2 text-lg lg:text-xl">
               <div>Show</div>
               <input
                 className="w-14 py-1 px-4 rounded outline-blue-200"
@@ -49,7 +49,7 @@ export const Banner = () => {
                 placeholder="16"
               />
             </div>
-            <div className="flex items-center justify-center gap-2 text-xl">
+            <div className="flex items-center justify-center gap-2 text-lg lg:text-xl">
               <div>Short By</div>
               <input
                 className="w-36 py-1 px-4 rounded outline-blue-200"

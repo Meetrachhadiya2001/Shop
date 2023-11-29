@@ -3,8 +3,8 @@ import { footerHelpLinks, navLinks } from "../utils/constant";
 export const Footer = () => {
   return (
     <div className="w-full bg-white">
-      <div className="w-11/12 m-auto grid grid-cols-1 lg:grid-cols-2 p-12 gap-20">
-        <div className="flex w-full flex-col md:flex-row gap-20 items-center justify-between">
+      <div className="w-11/12 m-auto grid grid-cols-1 lg:grid-cols-2 p-12 lg:gap-20 gap-10">
+        <div className="flex w-full flex-col md:flex-row lg:gap-20 gap-10 items-center justify-between">
           <div className="flex w-full flex-col gap-10 self-start items-center justify-center md:justify-start">
             <h2 className="font-bold text-3xl md:self-start">Furniro.</h2>
             <div className="md:self-start">
@@ -29,7 +29,7 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex w-full flex-col md:flex-row gap-20 items-start justify-between">
+        <div className="flex w-full flex-col md:flex-row lg:gap-20 gap-10 items-start justify-between">
           <div className="flex w-full flex-col gap-10 self-start items-center justify-center md:justify-start">
             <div className="font-semibold text-gray-400 text-xl md:self-start">
               Help
@@ -65,7 +65,7 @@ export const Footer = () => {
       </div>
       <div className="w-11/12 px-10 m-auto">
         <hr />
-        <div className="py-10 w-full text-black">
+        <div className="py-10 w-full text-black flex justify-center lg:justify-start">
           2023 furniro. All rights reverved
         </div>
       </div>

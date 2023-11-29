@@ -1,6 +1,6 @@
 .banner-bg {
   background: url("../assets/banner.png");
-  @apply bg-no-repeat bg-cover w-full h-80 flex items-center justify-center;
+  @apply bg-no-repeat bg-cover w-full h-80 flex items-center justify-center object-contain;
 }
 
 .filters {
