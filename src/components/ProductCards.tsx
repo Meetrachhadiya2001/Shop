@@ -8,7 +8,7 @@ import "../style/ProductCards.scss";
 export const ProductCardList = () => {
   return (
     <div className="w-full my-10">
-      <div className="flex grid-cols-4 m-auto w-9/12 gap-x-10 gap-y-14 justify-center items-center md:grid lg:grid flex-wrap">
+      <div className="flex flex-row gap-y-16 gap-x-10 flex-wrap justify-around mx-10 ">
         {ProductCards.map((item) => {
           const { id, img, name, desciption, price, isNew } = item;
           const hasDiscount = price.discountPercent !== undefined;

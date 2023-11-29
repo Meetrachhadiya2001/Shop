@@ -246,14 +246,14 @@ export const ProductCards = [
       discountPrice: 14000,
     },
   },
-  {
-    id: 16,
-    img: "https://www.zarla.com/images/Zarla-home-store-logos-5633x3726-2021023.jpeg?crop=21:16,smart&width=420&dpr=2",
-    name: "Respira",
-    desciption: "Outdoor bar table and stool",
-    price: {
-      amount: 4000,
-    },
-    isNew: true,
-  },
+  // {
+  //   id: 16,
+  //   img: "https://www.zarla.com/images/Zarla-home-store-logos-5633x3726-2021023.jpeg?crop=21:16,smart&width=420&dpr=2",
+  //   name: "Respira",
+  //   desciption: "Outdoor bar table and stool",
+  //   price: {
+  //     amount: 4000,
+  //   },
+  //   isNew: true,
+  // },
 ];
